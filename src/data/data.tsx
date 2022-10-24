@@ -30,7 +30,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Rojin Portfolio',
+  title: 'Rojin Prajapati',
   description: "",
 };
 
