@@ -9,12 +9,14 @@ import {PortfolioItem} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
+
+
 const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-white">PROJECTS</h2>
-        <div className="w-full gap-8 columns-2 md:columns-3 lg:columns-4">
+        <div className="w-full gap-8 columns-2 md:columns-3 lg:columns-3">
           {portfolioItems.map((item, index) => {
             const {title, image} = item;
             return (
@@ -23,17 +25,19 @@ const Portfolio: FC = memo(() => {
                   className={classNames(
                     'relative h-max w-full rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
                   )}>
-                  <Image alt={title} placeholder="blur" src={image} />
-                  <ItemOverlay item={item} />
+                  <Image  alt={title} placeholder="blur" src={image} />
+                  <ItemOverlay item={item} />             
                 </div>
               </div>
             );
           })}
         </div>
-      </div>
+      </div>  
     </Section>
   );
 });
+
+
 
 Portfolio.displayName = 'Portfolio';
 export default Portfolio;
