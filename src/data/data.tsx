@@ -67,7 +67,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1T5nekkFViX6tC8EPIeDj9csPvCuyANdJ/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1VjeSApx8-VvJo3ZVB2tNb6lFTj-VAn7K/view?usp=share_link',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -87,9 +87,17 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      As a Computer Science graduate from Western Michigan University, I've honed my analytical and problem-solving skills. My passion for technology extends beyond the code; I also find creative outlets in videography and editing, bringing stories to life through visuals. My unique journey as a professional soccer player and my passion for creative videography have given me a diverse perspective that I bring into the world of software engineering. 
-      <br></br><br></br>Being an athlete taught me the importance of discipline, teamwork, leadership, communication, and resilience. These values have seamlessly integrated into my professional life, making me a dependable and collaborative team player in software development. 
-      <br></br><br></br>Whether on the pitch or behind the camera/computer desk, I thrive in dynamic environments, collaborating with diverse teams to achieve goals. I'm excited to combine my technical expertise, particularly in <strong className="text-stone-100">iOS app development</strong>, with my creative flair to drive innovation and deliver meaningful solutions. Let's connect and explore opportunities to work together.
+    Currently, building an iOS app that helps users search for their new city, find great spots around the city based on personal interest, and help them accommodate with a user interactive map and guide. Check out my current progress: https://github.com/rojinpra7/ExploreCity
+    <br></br><br></br>
+    As a Computer Science graduate from Western Michigan University, I've honed my analytical and problem-solving skills. I am passionate about iOS app development. My passion for technology extends beyond the code; I also find creative outlets in videography and editing, bringing stories to life through visuals. My unique journey as a professional soccer player and my passion for creative videography has given me a diverse perspective that I bring into the world of software engineering.
+    <br></br><br></br>
+    Being an athlete taught me the importance of discipline, teamwork, leadership, communication, and resilience. These values have seamlessly integrated into my professional life, making me a dependable and collaborative team player in software development.
+    <br></br><br></br>
+    Let's connect and explore opportunities to work together.
+    <br></br><br></br>
+    Languages: Swift, Java, Python, Javascript, Typescript, C, HTML/CSS, SQL, PHP
+    Frameworks: SwiftUI, UIKit, MapKit, CoreLocation, AVFoundation, React, React Native, Django
+    Tools: Xcode, VS code, Git, Figma, Linux, WordPress, Drupal, Adobe Suite, Davinci Resolve
     </>
 
   ),
@@ -104,16 +112,16 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Programming',
+    name: 'LANGUAGES',
     skills: [
       {
-        name: 'Java',
+        name: 'Swift',
       },
       {
         name: 'React',
       },
       {
-        name: 'Swift',
+        name: 'Java',
       },
       {
         name: 'SQL',
@@ -122,13 +130,13 @@ export const skills: SkillGroup[] = [
         name: 'Python',
       },
       {
-        name: 'Django',
+        name: 'C',
       },
       {
         name: 'HTML',
       },
       {
-        name: 'C',
+        name: 'Typescript',
       },
       {
         name: 'CSS',
@@ -140,21 +148,60 @@ export const skills: SkillGroup[] = [
         name: 'Javascript',
       },
       {
+        name: 'C#',
+      }, 
+      
+    ],
+  },
+  {
+    name: 'FRAMEWORK',
+    skills: [
+      {
+        name: 'SwiftUI',
+      },
+      {
+        name: 'MVVM',
+      },
+      {
+        name: 'UIKit',
+      },
+      {
+        name: 'MVC',
+      },
+      {
+        name: 'MapKit',
+      },
+      {
+        name: 'Spring Boot',
+      },
+      {
+        name: 'Django',
+      },
+      {
+        name: 'React',
+      },
+      {
+        name: 'ASP.NET',
+      },
+      {
+        name: 'Core Location',
+      },
+      {
         name: 'React Native',
       },
-      
-      
-      
+      {
+        name: 'Core Animation',
+      },
     ],
   },
   {
     name: 'Toolbox',
     skills: [
       {
-        name: 'MacOS',
+        name: 'Xcode',
       },
       {
-        name: 'Linux',
+        name: 'Drupal',
       },
       {
         name: 'Git',
@@ -163,7 +210,13 @@ export const skills: SkillGroup[] = [
         name: 'Figma',
       },
       {
-        name: 'Airtable',
+        name: 'Linux',
+      },
+      {
+        name: 'AirTable',
+      },
+      {
+        name: 'WordPress',
       },
       {
         name: 'Adobe Suite',
@@ -256,13 +309,13 @@ export const education2: TimelineItem2[] = [
 
 export const experience: TimelineItem1[] = [
   {
-    date: 'June 2022 - September 2022',
+    date: 'June 2022 - Present',
     location: 'Pranos',
     title: 'Software Engineer Intern',
     content: (
       <p>
         • Developed and maintained features for the Pranos Mobile App using Javascript and Typescript in React Native Framework, allowing users to publish and control multimedia on the HoloGlass system.<br></br>
-        • Conducted research on React Native Bluetooth libraries and successfully implemented core functionality to request iOS Bluetooth permissions, ensuring compliance with App Store submission requirements.<br></br>
+        • Conducted research on React Native Bluetooth libraries and successfully implemented core functionality to request iOS Bluetooth permissions to users, ensuring compliance with App Store submission requirements.<br></br>
         • Enhanced code quality and app performance by optimizing the codebase and modularizing the navigation screen.<br></br>
       </p>
     ),
@@ -273,8 +326,9 @@ export const experience: TimelineItem1[] = [
     title: 'Web Content Manager',
     content: (
       <p>
-        • Spearheaded digital content creation, website management, and social media updates by leveraging tools like Canva, Adobe Photoshop, and CMS to promote diversity and inclusion initiatives.<br></br>
-        • Enhanced web traffic by approximately 15% through collaborative strategy development with senior managers, incorporating their feedback to consistently deliver innovative content.
+        • Spearheaded graphic design, digital content creation, website management, and social media updates.<br></br>
+        • Utilized graphic design tools like Canva, Adobe Photoshop, and Drupal CMS to promote diversity initiatives.<br></br>
+        • Successfully led the growth of Instagram followers from 0 to 200 and enhanced web traffic by approximately 15%.
       </p>
     ),
   },
@@ -284,8 +338,8 @@ export const experience: TimelineItem1[] = [
     title: 'Backend Developer Intern',
     content: (
       <p>
-        • Designed and implemented a streamlined dashboard to meet the scaling need of a non-profit organization, resulting in an increase in operational efficiency and improved decision-making for a 6000-pound weekly produce distribution network.<br></br>
-        • Collaborated with designers and developers to design features and wireframes in Figma, and to deliver mockups for an Airtable dashboard based on client needs and feedback.
+        • Designed and implemented a streamlined visual dashboard to meet the scaling needs of a non-profit organization, resulting in an increase in operational efficiency for a 6000-pound weekly produce distribution network.<br></br>
+        • Collaborated with designers and developers digging deep into clients’ operational pain points and design features and wireframes in Figma, and to deliver mockups for an Airtable dashboard based on client needs and feedback.
       </p>
     ),
   },
